@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>E-commerce site</title>
+  </head >
+  <body class="bg-primary urbanist text-gray-700">
+    <!--header start-->
+    <header>
+      <!--nav start-->
+      <nav class="container mx-auto flex flex-col sm:flex-row justify-center items-center  lg:justify-between lg:items-center my-4 p-4 lg:my-6 inter">
+        <div>
+          <img src="/images/logo.png" alt="logo">
+        </div>
+        <div class="max-[430px]:hidden flex justify-center items-center">
+          <ul class="flex justify-between items-center font-semibold text-xl">
+            <li class="px-4 py-2 text-brand">Home</li>
+            <li class="px-4 py-2 text-secondary">Projects</li>
+            <li class="px-4 py-2 text-secondary">Contact</li>
+            <li class="px-4 py-2 text-secondary">About</li>
+          </ul>
+        </div>
+        <div class="flex justify-center items-center">
+          <img class='p-3' src="/social/fb.png" alt="fb-logo"> 
+          <img class='p-3' src="/social/insta.png" alt="instragram-logo">
+          <img class='p-3' src="/social/x.png" alt="x-logo">
+        </div>
+        <div class="bg-secondary p-2 rounded-lg min-[429px]:hidden">
+          <img src="/images/humbuger.png" alt="hubbuger-menu">
+        </div>
+      </nav>
+      <!--nav end -->
+      <!--banner-->
+      <div class="container  mx-auto relative lg:h-[550px]  my-6 p-4 flex justify-center items-center bg-no-repeat bg-cover rounded-3xl" style="background-image: url(/images/hero.jpg)">
+        <div class="h-[300px] flex flex-col justify-center lg:justify-around items-center text-center text-white">
+          <h1 class=" font-bold text-xl sm:font-semibold sm:text:2xl lg:font-bold lg:text-3xl p-3">Don't Miss Out on These Unbeatable <br> Black Friday Deals!</h1>
+          <p>Save big this Black Friday with unbeatable deals on tech, home essentials,<br> fashion, and more! Limited stock.</p>
+          <div class="flex justify-center items-center p-4">
+            <button class="bg-brand px-6 py-2 rounded-xl mx-2">Explore Deal</button>
+            <button class="bg-[#FFFFFF33] px-6 py-2 rounded-xl mx-2">Buy Now</button>
+          </div>
+          
+        </div>
+        <div class="absolute size-full rounded-3xl bg-gradient-to-b from-[#0F0E0E00] to-[#0F0E0EB2]"  ></div>
+      </div>
+      <!--banner end-->
+    </header>
+    <!--header end-->
+    <!--main-->
+    <!--sponsor start-->
+    <section class="container mx-auto my-10">
+      <div  class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  lg:grid-cols-6 gap-4  justify-center justify-items-center p-6">
+      <div id="sponsor"><img src="images/canon.png" alt="canon-logo" class="w-auto h-6 grayscale hover:grayscale-0"></div>
+      <div><img src="images/unicef.png" alt="unicef-logo" class="w-auto h-6 grayscale hover:grayscale-0" ></div>
+      <div><img src="images/master-card.png" alt="master-card-logo" class="w-auto h-6 grayscale hover:grayscale-0"></div>
+      <div><img src="images/suzoki.png" alt="sozoki-logo" class="w-auto h-6 grayscale hover:grayscale-0"></div>
+      <div><img src="images/unicef.png" alt="unicef-logo" class="w-auto h-6 grayscale hover:grayscale-0"></div>
+      <div><img src="images/supreme.png" alt="supreme-logo" class="w-auto h-6 grayscale hover:grayscale-0"></div>
+      </div>
+    </section>
+    <!--sponsor end-->
+    <!--products start-->
+    <section class="container mx-auto my-6 gap-4">
+      <div class="flex flex-col justify-center items-center py-6 ">
+        <h2 class="font-semibold text-xl sm:font-bold sm:text-2xl lg:font-extrabold lg:text-4xl text-gray-700 p-2">Exclusive Products</h2>
+        <p class="text-sm sm:text-lg lg:text-xl text-center w-[60%]">Save big this Black Friday with unbeatable deals on tech, home essentials, fashion, and more! Limited stock.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
+        <div class=" h-[500px] flex flex-col justify-evenly  bg-white rounded-2xl p-7 m-auto">
+          <div class="w-[94%] h-[36%] bg-secondary m-auto rounded-2xl">
+            <img src="/products/winter-jacket-6.jpg" alt="winter-cloths" class="size-full">
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl ">Exclusive Products</h3>
+            <p class="text-sm sm:lg lg:xl text-gray-600">Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech.</p>
+          </div>
+          <div class="flex justify-between items-center">
+            <h4 class="font-semibold text-2xl">price: 1520 taka</h4>
+            <button class="py-2 px-4 rounded-xl bg-secondary">
+              <span class="font-semibold text-2xl">-</span>
+              <span class="font-semibold text-2xl">2</span>
+              <span class="font-semibold text-2xl">+</span>
+            </button>
+          </div>
+          <div class="flex flex-col justify-between items-center ">
+            <button class="w-full text-center bg-light p-2 rounded-2xl m-2">Add to card</button>
+            <button class="w-full text-center text-white bg-brand p-2 rounded-2xl m-2">Buy Now</button>
+          </div>
+        </div>
+        <div class=" h-[500px] flex flex-col justify-evenly  bg-white rounded-2xl p-7 m-auto">
+          <div class="w-[94%] h-[36%] bg-secondary m-auto rounded-2xl">
+            <img src="/products/winter-jacket-5.jpg" alt="winter-cloths" class="size-full">
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl ">Exclusive Products</h3>
+            <p class="text-sm sm:lg lg:xl text-gray-600">Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech.</p>
+          </div>
+          <div class="flex justify-between items-center">
+            <h4 class="font-semibold text-2xl">price: 1520 taka</h4>
+            <button class="py-2 px-4 rounded-xl bg-secondary">
+              <span class="font-semibold text-2xl">-</span>
+              <span class="font-semibold text-2xl">2</span>
+              <span class="font-semibold text-2xl">+</span>
+            </button>
+          </div>
+          <div class="flex flex-col justify-between items-center ">
+            <button class="w-full text-center bg-light p-2 rounded-2xl m-2">Add to card</button>
+            <button class="w-full text-center text-white bg-brand p-2 rounded-2xl m-2">Buy Now</button>
+          </div>
+        </div>
+        <div class=" h-[500px] flex flex-col justify-evenly  bg-white rounded-2xl p-7 m-auto">
+          <div class="w-[94%] h-[36%] bg-secondary m-auto rounded-2xl">
+            <img src="/products/winter-jacket-4.jpg" alt="winter-cloths" class="size-full">
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl ">Exclusive Products</h3>
+            <p class="text-sm sm:lg lg:xl text-gray-600">Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech.</p>
+          </div>
+          <div class="flex justify-between items-center">
+            <h4 class="font-semibold text-2xl">price: 1520 taka</h4>
+            <button class="py-2 px-4 rounded-xl bg-secondary">
+              <span class="font-semibold text-2xl">-</span>
+              <span class="font-semibold text-2xl">2</span>
+              <span class="font-semibold text-2xl">+</span>
+            </button>
+          </div>
+          <div class="flex flex-col justify-between items-center ">
+            <button class="w-full text-center bg-light p-2 rounded-2xl m-2">Add to card</button>
+            <button class="w-full text-center text-white bg-brand p-2 rounded-2xl m-2">Buy Now</button>
+          </div>
+        </div>
+        <div class=" h-[500px] flex flex-col justify-evenly  bg-white rou8nded-2xl p-7 m-auto">
+          <div class="w-[94%] h-[36%] bg-secondary m-auto rounded-2xl">
+            <img src="/products/winter-jacket-3.jpg" alt="winter-cloths" class="size-full">
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl ">Exclusive Products</h3>
+            <p class="text-sm sm:lg lg:xl text-gray-600">Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech.</p>
+          </div>
+          <div class="flex justify-between items-center">
+            <h4 class="font-semibold text-2xl">price: 1520 taka</h4>
+            <button class="py-2 px-4 rounded-xl bg-secondary">
+              <span class="font-semibold text-2xl">-</span>
+              <span class="font-semibold text-2xl">2</span>
+              <span class="font-semibold text-2xl">+</span>
+            </button>
+          </div>
+          <div class="flex flex-col justify-between items-center ">
+            <button class="w-full text-center bg-light p-2 rounded-2xl m-2">Add to card</button>
+            <button class="w-full text-center text-white bg-brand p-2 rounded-2xl m-2">Buy Now</button>
+          </div>
+        </div>
+        <div class=" h-[500px] flex flex-col justify-evenly  bg-white rounded-2xl p-7 m-auto">
+          <div class="w-[94%] h-[36%] bg-secondary m-auto rounded-2xl">
+            <img src="/products/winter-jacket-2.jpg" alt="winter-cloths" class="size-full">
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl ">Exclusive Products</h3>
+            <p class="text-sm sm:lg lg:xl text-gray-600">Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech.</p>
+          </div>
+          <div class="flex justify-between items-center">
+            <h4 class="font-semibold text-2xl">price: 1520 taka</h4>
+            <button class="py-2 px-4 rounded-xl bg-secondary">
+              <span class="font-semibold text-2xl">-</span>
+              <span class="font-semibold text-2xl">2</span>
+              <span class="font-semibold text-2xl">+</span>
+            </button>
+          </div>
+          <div class="flex flex-col justify-between items-center ">
+            <button class="w-full text-center bg-light p-2 rounded-2xl m-2">Add to card</button>
+            <button class="w-full text-center text-white bg-brand p-2 rounded-2xl m-2">Buy Now</button>
+          </div>
+        </div>
+        <div class="h-[500px] flex flex-col justify-evenly  bg-white rounded-2xl p-7 m-auto">
+          <div class="w-[94%] h-[36%] bg-secondary m-auto rounded-2xl">
+            <img src="/products/winter-jactet-1.jpg" alt="winter-cloths" class="size-full">
+          </div>
+          <div>
+            <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl ">Exclusive Products</h3>
+            <p class="text-sm sm:lg lg:xl text-gray-600">Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech.</p>
+          </div>
+          <div class="flex justify-between items-center">
+            <h4 class="font-semibold text-2xl">price: 1520 taka</h4>
+            <button class="py-2 px-4 rounded-xl bg-secondary">
+              <span class="font-semibold text-2xl">-</span>
+              <span class="font-semibold text-2xl">2</span>
+              <span class="font-semibold text-2xl">+</span>
+            </button>
+          </div>
+          <div class="flex flex-col justify-between items-center ">
+            <button class="w-full text-center bg-light p-2 rounded-2xl m-2">Add to card</button>
+            <button class="w-full text-center text-white bg-brand p-2 rounded-2xl m-2">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--products end-->
+    <!--statistic start-->
+    <section class="container mx-auto my-10">
+      <div  class="w-full mx-auto grid grid-cols-2 sm:grid-cols-4  gap-4  p-6">
+      <div class="flex flex-col justify-center items-center">
+        <img src="images/package.png" alt="package-logo" class="size-16 grayscale hover:grayscale-0 p-1">
+        <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl p-2">1500+</h3>
+        <p>Products</p>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <img src="images/delevery.png" alt="package-logo" class="grayscale hover:grayscale-0 p-1 size-16">
+        <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl p-2">1550+</h3>
+        <p>Sells</p>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <img src="images/team.png" alt="package-logo" class=" grayscale hover:grayscale-0 p-1 size-16">
+        <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl p-2" >5500+</h3>
+        
+        <p>Happy Customers</p>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <img src="images/group.png" alt="package-logo" class=" grayscale hover:grayscale-0 p-1 size-16">
+        <h3 class="font-semibold text-2xl sm:font-bold sm:text-3xl p-2">500+</h3>
+        <p>Team Member</p>
+      </div>
+      </div>
+    </section>
+    <!--statistic end-->
+    <!--authentication start-->
+    <section class="container mx-auto my-8 gap-6">
+      <div class="flex flex-col justify-center items-center py-6 ">
+        <h2 class="font-semibold text-xl sm:font-bold sm:text-2xl lg:font-extrabold lg:text-4xl text-gray-700 p-2">Create Account</h2>
+        <p class="text-sm sm:text-lg lg:text-xl text-center w-[60%]">Save big this Black Friday with unbeatable deals on tech, home essentials, fashion, and more! Limited stock.</p>
+      </div>
+      <div class="flex flex-col lg:flex-row my-6 rounded-xl bg-white">
+        <div class="w-full lg:w-[50%] flex justify-center items-center">
+          <img src="/images/contact.jpg" alt="contact-image">
+        </div>
+        <div class="lg:w-[50%] w-full p-10">
+          <form action="submit">
+            <div class="p-2 m-2">
+              <label for="name">Name :</label><br>
+              <div class="flex justify-between items-center">
+               <input type="text" id="name" placeholder="first-name" class=" w-[50%] border border-secondary px-3 py-2  rounded-xl" required>
+               <input type="text" id="name" placeholder="last-name" class="w-[50%] border border-secondary px-3 py-2 m-2 rounded-xl" required>
+             </div>
+            </div>
+           <div class="p-2 m-2">
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" placeholder="enter email" class="w-full border border-secondary px-3 py-2  rounded-xl" required>
+           </div>
+           <div class="p-2 m-2">
+            <label for="password">Password :</label><br>
+            <input type="password" id="password" placeholder="password" class=" w-full border border-secondary px-3 py-2 rounded-xl" required>
+           </div>
+           <div class="p-2 m-2">
+            <label for="age">Age :</label><br>
+            <input type="number" id="age" placeholder="age" class="border border-secondary px-3 py-2 w-full rounded-xl" required>
+           </div>
+           <div class="flex justify-center items-center p-2 m-2">
+            <div class="w-[50%]">
+              <label for="options">Gender:</label><br>
+                <select id="options" name="options" class="border border-secondary px-3 py-2 m-2 rounded-xl">
+                  <option value="option1">Male</option>
+                  <option value="option2">Female</option>
+                  <option value="option3">Intersex</option>
+                </select>
+            </div>
+            <div class="w-[50%]">
+              <label for="options">Country:</label><br>
+                <select id="options" name="options" class="border border-secondary px-3 py-2 m-2 rounded-xl">
+                  <option value="" disabled selected>Select a country</option>
+                  <option value="us">United States</option>
+                  <option value="ca">Canada</option>
+                  <option value="uk">United Kingdom</option>
+                  <option value="bd">Bangladesh</option>
+                  <option value="in">India</option>
+                  <option value="au">Australia</option>
+                </select>
+            </div>
+           </div>
+           <button class="w-full bg-brand text-white rounded-xl p-2 ">Create account</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--authentication end-->
+    <!--testimonial start-->
+    <section class="container mx-auto my-10 gap-4">
+      <div class="flex flex-col justify-start items-start py-6 ">
+        <h2 class="font-semibold text-xl sm:font-bold sm:text-2xl lg:font-extrabold lg:text-4xl text-gray-700 p-2">What our Customer Says</h2>
+        <p class="text-sm sm:text-lg lg:text-xl  w-[60%]">Save big this Black Friday with unbeatable deals on tech, home essentials, fashion, and more! Limited stock.</p>
+      </div>
+      <div class="testimonials flex flex-row flex-wrap justify-center items-center gap-6 py-6 w-full">
+        
+        <div class="testimonial w-[400px] h-[350px] flex flex-col justify-evenly  bg-white rounded-2xl p-4 m-auto">
+          <div class="profile flex justify-start items-center gap-3 p-4">
+            <img src="/images/avater.png" alt="" class="size-14 rounded-full bg-secondary">
+            <div>
+              <h4 class="font-semibold text-2xl sm:font-bold sm:text-3xl">Aulad Hossain</h4>
+              <p>23/05/2024</p>
+            </div>
+          </div>
+          <div class="gap-3 p-4">
+            <p>Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech. </p>
+          </div>
+          <div class="flex justify-start items-center gap-3 p-4">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <p class="font-bold text-2xl">(5.0)</p>
+          </div>
+        </div>
+        <div class="testimonial w-[400px] h-[350px] flex flex-col justify-evenly  bg-white rounded-2xl p-4 m-auto">
+          <div class="profile flex justify-start items-center gap-3 p-4">
+            <img src="/images/avater.jpg" alt="" class="size-14 rounded-full bg-secondary">
+            <div>
+              <h4 class="font-semibold text-2xl sm:font-bold sm:text-3xl">Akib shovo</h4>
+              <p>23/05/2024</p>
+            </div>
+          </div>
+          <div class="gap-3 p-4">
+            <p>Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech. </p>
+          </div>
+          <div class="flex justify-start items-center gap-3 p-4">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <p class="font-bold text-2xl">(4.9)</p>
+          </div>
+        </div>
+       
+        <div class="testimonial w-[400px] h-[350px] flex flex-col justify-evenly  bg-white rounded-2xl p-4 m-auto">
+          <div class="profile flex justify-start items-center gap-3 p-4">
+            <img src="/images/avater-1.png" alt="" class="size-14 rounded-full bg-secondary cover">
+            <div>
+              <h4 class="font-semibold text-2xl sm:font-bold sm:text-3xl">Habib Hasan </h4>
+              <p>23/05/2024</p>
+            </div>
+          </div>
+          <div class="gap-3 p-4">
+            <p>Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech. Save big this Black Friday with unbeatable deals on tech. </p>
+          </div>
+          <div class="flex justify-start items-center gap-3 p-4">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <img src="/images/star.png" alt="star-icon">
+            <p class="font-bold text-2xl">(4.8)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--testimonial end-->
+    <!--footer start-->
+    <footer class="w-full bg-white my-10 py-10">
+      <div class="flex flex-col justify-center items-center my-3 py-2">
+        <h2 class="p-3">
+          <img src="/images/logo.png" alt="logo">
+        </h2>
+        <p class="w-[40%] text-center p-3">Save big this Black Friday with unbeatable deals on tech, home essentials, fashion, and more! Limited stock.</p>
+      </div>
+      <div class=" w-[50%] mx-auto flex justify-center items-center border-b border-primary"></div>
+      <div class="my-3 py-2">
+        <div class="min-[430px]:hidden flex justify-center items-center">
+          <ul class="flex justify-between items-center font-semibold text-xl">
+            <li class="px-4 py-2 text-brand">Home</li>
+            <li class="px-4 py-2 text-secondary">Projects</li>
+            <li class="px-4 py-2 text-secondary">Contact</li>
+            <li class="px-4 py-2 text-secondary">About</li>
+          </ul>
+        </div>
+        <div class="flex justify-center items-center">
+          <img class='p-3' src="/social/fb.png" alt="fb-logo"> 
+          <img class='p-3' src="/social/insta.png" alt="instragram-logo">
+          <img class='p-3' src="/social/x.png" alt="x-logo">
+        </div>
+      </div>
+    </footer>
+    <!--footer end-->
+  
+  </body>
+</html>

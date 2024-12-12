@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+min-hidden: value er kom man show korve.
+max-hidden: value er kom man hide korve.
+sm: 640px theke show korve.
+md: 768px theke show korve.
+lg: 1024px theke show korve.
+xl: 1280px theke show korve.
+2xl: 1536px theke show korve.
+*/
